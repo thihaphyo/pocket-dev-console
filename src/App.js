@@ -1,16 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-import {
-  AxiosProvider,
-  Request,
-  Get,
-  Delete,
-  Head,
-  Post,
-  Put,
-  Patch,
-  withAxios,
-} from "react-axios";
+
 import { useState } from "react";
 
 function App() {
