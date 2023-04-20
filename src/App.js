@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 
 import { useState } from "react";
@@ -34,7 +33,7 @@ function App() {
     );
 
     var data = await response.json();
-    if (data.code == 40) {
+    if (data.code === 40) {
       alert("User not found");
       setIsLoading(false);
       return;
@@ -67,9 +66,9 @@ function App() {
     });
 
     console.log(responseUpdate.status);
-    var data = await responseUpdate.json();
-    if (data.code == 44 || responseUpdate.status != 200) {
-      alert(data.message);
+    var dataUpd = await responseUpdate.json();
+    if (dataUpd.code === 44 || responseUpdate.status !== 200) {
+      alert(dataUpd.message);
       setIsLoading(false);
       return;
     }
