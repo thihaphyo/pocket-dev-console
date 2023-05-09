@@ -158,7 +158,7 @@ function App() {
         Accept: "application/json, text/plain, */*",
         "Content-Type": "application/json",
         Authorization:
-          "Bearer 940435ee551fbb0b213f3c2fe1add375c422dc173f3f780718c9d8dce29dde88",
+          "Bearer 95ac19c6090886536fec102190002c16d1d073be5dafd261d036e863e93ba0a1",
       }),
     });
 
